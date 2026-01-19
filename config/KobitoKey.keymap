@@ -33,6 +33,36 @@
         };
     };
 
+    macros {
+        lefttab: lefttab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LS(TAB))>;
+            label = "LEFTTAB";
+        };
+
+        righttab: righttab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(TAB)>;
+            label = "RIGHTTAB";
+        };
+
+        back: back {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(LEFT_ARROW)>;
+            label = "BACK";
+        };
+
+        aware: aware {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LA(RIGHT_ARROW)>;
+            label = "AWARE";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
