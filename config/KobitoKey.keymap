@@ -93,10 +93,10 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp PERCENT       &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F8  &kp F9  &kp F10  &trans
-&kp COLON         &kp GRAVE          &kp CARET         &kp AT_SIGN       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F5  &kp F6  &kp F7   &kp F12
-&kp LG(NUMBER_1)  &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)      &trans                 &kp F1  &kp F2  &kp F4   &kp F11
-&trans            &trans             &trans            &trans            &trans                &kp DEL                &trans  &trans  &trans   &trans
+&kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp PERCENT       &kp AMPERSAND     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp F7  &kp F8  &kp F9  &kp F12
+&kp COLON         &kp GRAVE          &kp CARET         &kp AT_SIGN       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F4  &kp F5  &kp F6  &kp F11
+&kp LG(NUMBER_1)  &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)      &trans                 &kp F1  &kp F2  &kp F3  &kp F10
+&trans            &trans             &trans            &trans            &trans                &kp DEL                &trans  &trans  &trans  &trans
             >;
         };
 
