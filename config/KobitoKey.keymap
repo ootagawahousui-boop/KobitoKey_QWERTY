@@ -92,6 +92,11 @@
             bindings = <&kp LG(LS(S))>;
             key-positions = <11 12>;
         };
+
+        henkan {
+            bindings = <&kp F13>;
+            key-positions = <18 17>;
+        };
     };
 
     macros {
