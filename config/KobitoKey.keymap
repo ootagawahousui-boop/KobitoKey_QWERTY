@@ -141,7 +141,7 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans  &kp LC(RS(TAB))  &kp LC(TAB)  &kp UP    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)
 &trans  &trans  &trans  &trans     &trans  &kp PAGE_UP      &kp LEFT     &kp DOWN  &kp RIGHT           &kp PLUS
-&trans  &trans  &trans  &trans     &trans  &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &kp UNDERSCORE
+&trans  &trans  &trans  &trans     &trans  &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &kp JP_UNDERSCORE
 &trans  &trans  &trans  &kp LSHFT  &trans  &kp DELETE       &trans       &trans    &trans              &trans
             >;
         };
