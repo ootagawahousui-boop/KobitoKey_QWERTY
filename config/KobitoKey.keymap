@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // OS設定を日本語キーボードのまま使用するための変換定義
+
 #define JP_DQUOTE       AT                // "
 #define JP_AMPERSAND    CARET             // &
 #define JP_QUOTE        AMPERSAND         // '
@@ -140,7 +141,7 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans  &kp LC(RS(TAB))  &kp LC(TAB)  &kp UP    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)
 &trans  &trans  &trans  &trans     &trans  &kp PAGE_UP      &kp LEFT     &kp DOWN  &kp RIGHT           &kp TILDE
-&trans  &trans  &trans  &trans     &trans  &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &trans
+&trans  &trans  &trans  &trans     &trans  &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &kp UNDERSCORE
 &trans  &trans  &trans  &kp LSHFT  &trans  &kp DELETE       &trans       &trans    &trans              &trans
             >;
         };
