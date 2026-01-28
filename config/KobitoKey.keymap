@@ -139,20 +139,20 @@
         layer1 {
             label = "NUMBER";
             bindings = <
-&trans  &trans  &trans  &trans     &trans  &kp LC(RS(TAB))  &kp LC(TAB)  &kp UP    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)
-&trans  &trans  &trans  &trans     &trans  &kp PAGE_UP      &kp LEFT     &kp DOWN  &kp RIGHT           &kp PLUS
-&trans  &trans  &trans  &trans     &trans  &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &kp JP_UNDERSCORE
-&trans  &trans  &trans  &kp LSHFT  &trans  &kp DEL          &trans       &trans    &trans              &trans
+&trans  &trans  &trans  &trans  &trans  &kp LC(RS(TAB))  &kp LC(TAB)  &kp UP    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)
+&trans  &trans  &trans  &trans  &trans  &kp PAGE_UP      &kp LEFT     &kp DOWN  &kp RIGHT           &kp PLUS
+&trans  &trans  &trans  &trans  &trans  &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &kp JP_UNDERSCORE
+&trans  &trans  &trans  &trans  &trans  &kp DEL          &trans       &trans    &trans              &trans
             >;
         };
 
         layer2 {
             label = "FUNCTION";
             bindings = <
-&kp EXCLAMATION   &kp DOUBLE_QUOTES  &kp PERCENT       &kp AMPERSAND     &kp ASTRK          &kp KP_LEFT_PARENTHESIS  &kp F7  &kp F8  &kp F9  &kp F12
-&kp COLON         &kp GRAVE          &kp CARET         &kp AT_SIGN       &kp RIGHT_BRACKET  &kp BACKSLASH            &kp F4  &kp F5  &kp F6  &kp F11
-&kp LG(NUMBER_1)  &kp LG(NUMBER_2)   &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)   &trans                   &kp F1  &kp F2  &kp F3  &kp F10
-&trans            &trans             &trans            &trans            &trans             &trans                   &trans  &trans  &trans  &trans
+&kp EXCLAMATION   &kp AT            &kp PERCENT       &kp CARET         &kp ASTRK          &kp KP_LEFT_PARENTHESIS  &kp F7  &kp F8  &kp F9  &kp F12
+&kp AMPERSAND     &kp GRAVE         &kp KP_EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH            &kp F4  &kp F5  &kp F6  &kp F11
+&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)   &trans                   &kp F1  &kp F2  &kp F3  &kp F10
+&trans            &trans            &trans            &trans            &trans             &trans                   &trans  &trans  &trans  &trans
             >;
         };
 
@@ -168,10 +168,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE  &kp N7        &kp N8        &kp N9        &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans  &kp SINGLE_QUOTE  &kp N7        &kp N8        &kp N9        &kp DOUBLE_QUOTES
 &trans  &trans  &trans  &trans  &trans  &kp PERIOD        &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &kp N0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans            &trans        &trans        &kp SLASH     &kp EQUAL
+&trans  &trans  &trans  &trans  &trans  &kp N0            &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON
+&trans  &trans  &trans  &trans  &trans  &trans            &trans        &trans        &kp SLASH     &kp UNDER
             >;
         };
 
