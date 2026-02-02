@@ -75,12 +75,12 @@
 
         combo_paste {
             bindings = <&kp LC(V)>;
-            key-positions = <6 5>;
+            key-positions = <15 16>;
         };
 
         combo_pasta {
             bindings = <&kp LA(LC(V))>;
-            key-positions = <16 15>;
+            key-positions = <5 6>;
         };
 
         combo_back {
@@ -154,20 +154,20 @@
         layer2 {
             label = "FUNCTION";
             bindings = <
-&kp EXCLAMATION   &kp AT            &kp PERCENT       &kp CARET         &kp ASTRK          &kp KP_LEFT_PARENTHESIS  &kp F7  &kp F8  &kp F9  &kp F12
-&kp AMPERSAND     &kp GRAVE         &kp KP_EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH            &kp F4  &kp F5  &kp F6  &kp F11
-&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)   &kp F13                  &kp F1  &kp F2  &kp F3  &kp F10
-&trans            &trans            &trans            &trans            &trans             &trans                   &trans  &trans  &trans  &trans
+&kp EXCLAMATION   &kp AT            &kp PERCENT       &kp CARET         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp F7  &kp F8  &kp F9  &kp F12
+&kp AMPERSAND     &kp GRAVE         &kp KP_EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp F4  &kp F5  &kp F6  &kp F11
+&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)   &kp F13               &kp F1  &kp F2  &kp F3  &kp F10
+&trans            &trans            &trans            &trans            &trans             &trans                &trans  &trans  &trans  &trans
             >;
         };
 
         layer3 {
             label = "MOUSE";
             bindings = <
-&trans     &trans  &trans     &trans  &trans          &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans     &trans  &trans     &trans  &trans          &trans  &trans    &trans    &trans    &trans
-&trans     &trans  &trans     &trans  &trans          &trans  &trans    &trans    &trans    &trans
-&kp LSHFT  &trans  &kp LCTRL  &trans  &kp LEFT_SHIFT  &to 0   &trans    &trans    &to 0     &kp RALT
+&trans  &trans        &trans     &trans  &trans          &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans        &trans     &trans  &trans          &trans  &trans    &trans    &trans    &trans
+&trans  &trans        &trans     &trans  &trans          &trans  &trans    &trans    &trans    &trans
+&trans  &kp LEFT_ALT  &kp LCTRL  &trans  &kp LEFT_SHIFT  &to 0   &trans    &trans    &to 0     &kp RALT
             >;
         };
 
