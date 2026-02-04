@@ -144,7 +144,7 @@
         layer1 {
             label = "NUMBER";
             bindings = <
-&kp LG(N5)        &kp LG(NUMBER_6)  &kp LG(N7)        &kp LG(N8)        &kp LA(TAB)  &kp LC(RS(TAB))  &kp LC(TAB)  &kp UP    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)
+&kp LG(N5)        &kp LG(NUMBER_6)  &kp LG(N7)        &kp LG(N8)        &kp LG(TAB)  &kp LC(RS(TAB))  &kp LC(TAB)  &kp UP    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)
 &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(D)    &kp PAGE_UP      &kp LEFT     &kp DOWN  &kp RIGHT           &kp PLUS
 &trans            &trans            &trans            &trans            &trans       &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &kp JP_UNDERSCORE
 &trans            &trans            &trans            &trans            &trans       &kp DEL          &trans       &trans    &trans              &trans
