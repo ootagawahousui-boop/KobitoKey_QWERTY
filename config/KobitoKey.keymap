@@ -144,20 +144,20 @@
         layer1 {
             label = "NUMBER";
             bindings = <
-&kp LG(N5)        &kp LG(NUMBER_6)  &kp LG(N7)        &kp LG(N8)        &trans     &kp LC(RS(TAB))  &kp LC(TAB)  &kp UP    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)
-&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(D)  &kp PAGE_UP      &kp LEFT     &kp DOWN  &kp RIGHT           &kp PLUS
-&trans            &trans            &trans            &trans            &trans     &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &kp JP_UNDERSCORE
-&trans            &trans            &trans            &trans            &trans     &kp DEL          &trans       &trans    &trans              &trans
+&kp LG(N5)        &kp LG(NUMBER_6)  &kp LG(N7)        &kp LG(N8)        &kp LA(TAB)  &kp LC(RS(TAB))  &kp LC(TAB)  &kp UP    &kp LA(LEFT_ARROW)  &kp LA(RIGHT_ARROW)
+&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(D)    &kp PAGE_UP      &kp LEFT     &kp DOWN  &kp RIGHT           &kp PLUS
+&trans            &trans            &trans            &trans            &trans       &kp PAGE_DOWN    &kp HOME     &trans    &kp END             &kp JP_UNDERSCORE
+&trans            &trans            &trans            &trans            &trans       &kp DEL          &trans       &trans    &trans              &trans
             >;
         };
 
         layer2 {
             label = "FUNCTION";
             bindings = <
-&kp EXCLAMATION   &kp AT            &kp PERCENT       &kp CARET         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp F7  &kp F8  &kp F9  &kp F12
-&kp AMPERSAND     &kp GRAVE         &kp KP_EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp F4  &kp F5  &kp F6  &kp F11
-&kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)   &kp F13               &kp F1  &kp F2  &kp F3  &kp F10
-&trans            &trans            &trans            &trans            &trans             &trans                &trans  &trans  &trans  &trans
+&kp EXCLAMATION  &kp AT     &kp PERCENT   &kp CARET         &kp ASTRK          &kp LEFT_PARENTHESIS  &kp F7  &kp F8  &kp F9  &kp F12
+&kp AMPERSAND    &kp GRAVE  &kp KP_EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH         &kp F4  &kp F5  &kp F6  &kp F11
+&trans           &trans     &trans        &trans            &trans             &kp F13               &kp F1  &kp F2  &kp F3  &kp F10
+&trans           &trans     &trans        &trans            &trans             &trans                &trans  &trans  &trans  &trans
             >;
         };
 
